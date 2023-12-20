@@ -10,7 +10,7 @@ const ContextProvider = ({ children }) => {
   return (
     <Context.Provider
       
-      value={{ count, setCount }}
+      value={{ count, setCount }} // 합성의 형태로 value값들을 context로 넘겨줌
     >
       {children}
     </Context.Provider>
