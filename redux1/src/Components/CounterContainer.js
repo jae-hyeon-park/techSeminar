@@ -16,6 +16,9 @@ const CounterContainer = () => {
             <br />
             <button onClick={() => dispatch(increaseNum())}> + </button>
             <button onClick={() => dispatch(decreaseNum())}> - </button>
+
+
+            
         </div>
     );
 };
