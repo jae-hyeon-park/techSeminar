@@ -1,7 +1,7 @@
 import {useSelector, useDispatch } from "react-redux";
 // useSelector - store에 저장되어있는 값을 가져옴
 // useDispatch - 해당 액션을 실행
-import {decreaseNum, increaseNum} from "../Actions/CountAction";
+import {decreaseNum, increaseNum} from "../Actions/CountAction"; //액션 함수 불러옴
 import React from 'react';
 
 const CounterContainer = () => {
